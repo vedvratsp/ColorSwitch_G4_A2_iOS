@@ -51,6 +51,27 @@ final class GameScene: SKScene {
     
     private func updateScoreLabel() {
         scoreLabel.text = String(score)
+        if score == 10 {
+            run(SKAction.playSoundFileNamed(Sounds.winning.rawValue, waitForCompletion: false))
+        }
+        
+        if score == 20 {
+            run(SKAction.playSoundFileNamed(Sounds.winning.rawValue, waitForCompletion: false))
+        }
+        
+        if score == 30 {
+            run(SKAction.playSoundFileNamed(Sounds.winning.rawValue, waitForCompletion: false))
+        }
+        
+        
+        if score == 40 {
+            run(SKAction.playSoundFileNamed(Sounds.winning.rawValue, waitForCompletion: false))
+        }
+        
+        
+        if score == 50 {
+                   run(SKAction.playSoundFileNamed(Sounds.winning.rawValue, waitForCompletion: false))
+        }
     }
     
     private func spawnBall() {
