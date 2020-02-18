@@ -68,7 +68,6 @@ final class GameScene: SKScene {
             run(SKAction.playSoundFileNamed(Sounds.winning.rawValue, waitForCompletion: false))
         }
         
-        
         if score == 50 {
                    run(SKAction.playSoundFileNamed(Sounds.winning.rawValue, waitForCompletion: false))
         }
